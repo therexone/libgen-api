@@ -66,7 +66,9 @@ GET /query
 ```
 GET /query/book_name
 ```
+
 > Example: GET /python/Exploring Python
 
-`book_name` needs to a `title` from the `/query` response
+
+`book_name` needs to be a `title` from the `/query` response
 
