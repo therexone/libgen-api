@@ -130,6 +130,5 @@ dmypy.json
 
 
 #custom
-.scapper_test.py
 .vscode/
 scrapper_test.py

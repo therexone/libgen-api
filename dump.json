@@ -126,10 +126,12 @@
         "Title": {
             "Data structures and algorithms in Python": "http://libgen.is/book/index.php?md5=B8124A8468BC7A044B91A75FB66E79BC"
         },
-        "Publisher": "2004",
-        "Year": "English",
-        "Pages": "3 Mb",
-        "Language": "chm"
+        "Publisher": "",
+        "Year": "2004",
+        "Pages": "",
+        "Language": "English",
+        "Size": "3 Mb",
+        "Extension": "chm"
     },
     {
         "Author(s)": [
@@ -198,11 +200,12 @@
         "Title": {
             "Making Use of Python": "http://libgen.is/book/index.php?md5=04B6429E6FA882EBBDC1ECA85AAFEA74"
         },
-        "Publisher": "2002",
-        "Year": "416",
-        "Pages": "English",
-        "Language": "5 Mb",
-        "Size": "pdf"
+        "Publisher": "",
+        "Year": "2002",
+        "Pages": "416",
+        "Language": "English",
+        "Size": "5 Mb",
+        "Extension": "pdf"
     },
     {
         "Author(s)": [
@@ -282,11 +285,12 @@
         "Title": {
             "Python in a Nutshell": "http://libgen.is/book/index.php?md5=DE9D5C1CF982628332A817F217E9BCA9"
         },
-        "Publisher": "2003",
-        "Year": "654",
-        "Pages": "English",
-        "Language": "1 Mb",
-        "Size": "chm"
+        "Publisher": "",
+        "Year": "2003",
+        "Pages": "654",
+        "Language": "English",
+        "Size": "1 Mb",
+        "Extension": "chm"
     },
     {
         "Author(s)": [
@@ -360,9 +364,11 @@
         "Title": {
             "GUI Programming with Python: QT Edition": "http://libgen.is/book/index.php?md5=E1A23ED564D79CFC92505514ACCB5558"
         },
-        "Publisher": "2001",
-        "Year": "English",
-        "Pages": "785 Kb",
-        "Language": "chm"
+        "Publisher": "",
+        "Year": "2001",
+        "Pages": "",
+        "Language": "English",
+        "Size": "785 Kb",
+        "Extension": "chm"
     }
 ]

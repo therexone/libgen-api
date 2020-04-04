@@ -17,7 +17,7 @@ class Scapper:
             page = requests.urlopen(self.url)
             soup = BeautifulSoup(page, 'html.parser')
             title_row = soup.find(attrs={'bgcolor': '#C0C0C0'})
-            keys = [td.string for td in title_row.find_all('a')][1:]
+            keys = ['Author(s)', 'Book', 'Publisher', 'Year', 'Pages', 'Language', 'Size',  'Extension' ]
             book_data_rows = title_row.find_next_siblings('tr')
             return (keys, book_data_rows)
         except Exception as e:
@@ -40,16 +40,19 @@ class Scapper:
                         href = f"{self.base_url}{book_a.get('href')}"
                         name = [str(string)
                                 for string in book_a.stripped_strings][0]
-                        book_data.append(dict([(name, href)]))
+                        book_data.append(dict(title=name, link=href))
                     else:
                         book_data.append(
                             [str(string) for string in td.stripped_strings if str(string) != ','])
+                # empty 'td'
+                elif td.string is None:
+                    book_data.append("")
             # print(book_data[1:-6])
 
             row_data = dict(zip(keys, book_data[1:-6]))
             final_data.append(row_data)
-        return json.dumps(final_data)
+        return final_data
 
 
-data = Scapper('three body problem').parse_data()
-print(data)
+# data = Scapper('three body problem').parse_data()
+# print(data)
