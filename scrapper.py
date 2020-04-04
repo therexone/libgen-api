@@ -4,7 +4,7 @@ import re
 import json
 
 
-class Scapper:
+class Scrapper:
 
     def __init__(self, search_data, results=25,  base_url='http://libgen.is/',):
         self.search = search_data.replace(" ", "+")
@@ -54,5 +54,5 @@ class Scapper:
         return final_data
 
 
-# data = Scapper('three body problem').parse_data()
+# data = Scrapper('three body problem').parse_data()
 # print(data)
